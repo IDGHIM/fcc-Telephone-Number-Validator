@@ -1,6 +1,6 @@
 # 🏛️ fcc-Telephone Number Validator US(🌐 version)
 
-🔗 **Live Website**: []()
+🔗 **Live Website**: [https://idghim.github.io/fcc-Telephone-Number-Validator/](https://idghim.github.io/fcc-Telephone-Number-Validator/)
 
 > ✨ *In this project, I made some custom modifications to the original instructions to achieve a design that reflects my personal style and preferences.*
 
