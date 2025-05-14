@@ -1,6 +1,6 @@
 # 🏛️ fcc-Telephone Number Validator US(🌐 version)
 
-🔗 **Live Website**: []()
+🔗 **Live Website**: [https://idghim.github.io/fcc-Telephone-Number-Validator/](https://idghim.github.io/fcc-Telephone-Number-Validator/)
 
 > ✨ *In this project, I made some custom modifications to the original instructions to achieve a design that reflects my personal style and preferences.*
 
@@ -42,23 +42,44 @@ The goal of this project is to build a **Telephone Number Validator US** page as
 
 **✅ Valid US Number Examples**
 
-- [x] 1 555-555-5555
-- [x] 1 (555) 555-5555
-- [x] 5555555555
-- [x] 555-555-5555
-- [x] (555)555-5555
-- [x] 1(555)555-5555
-- [x] 1 555 555 5555
+Standard size :
+
+- [x] 123-456-7890
+- [x] (123) 456-7890
+- [x] 123.456.7890
+- [x] 123 456 7890
+- [x] (123)456-7890
+
+International format with US dialing code (+1 or 00-1) :
+
+- [x] +1 123-456-7890
+- [x] +1 (123) 456-7890
+- [x] +1 123.456.7890
+- [x] +1 123 456 7890
+- [x] 00-1-123-456-7890
+- [x] 00 1 123 456 7890
 
 **❌ Invalid US Number Examples**
 
-- [x] 555-5555
-- [x] 5555555
-- [x] 1 555)555-5555
-- [x] 2 (757) 622-7382
-- [x] 11 555-555-5555
-- [x] (6054756961)
-- [x] 123**&!!asdf#
+Other indicators than the US states (+33, +44, etc.) :
+
+- [x] +33 1 44 78 22 33 (France)
+- [x] +44 20 7946 0958 (United Kingdom)
+
+Numbers with incorrect format :
+
+- [x] 12345-67890
+- [x] +1-123-45-67890
+
+Numbers without area code and without the 10 mandatory digits :
+
+- [x] 456-7890
+- [x] 7890
+
+Numbers with invalid non-numeric or special characters :
+
+- [x] 123-ABC-7890
+- [x] +1 123-456-78AB
 
 ---
 
